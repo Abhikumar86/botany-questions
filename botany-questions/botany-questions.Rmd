@@ -1,0 +1,69 @@
+---
+title: "botany-questions"
+output: learnr::tutorial
+runtime: shiny_prerendered
+---
+
+```{r setup, include=FALSE}
+library(learnr)
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Biochemistry
+
+## Cell Biology
+
+## Molecular Biology
+
+## Plant physiology
+
+## Genetics
+
+## Diversity in Living Organisms
+
+### Systematics
+
+### Bacteria and Viruses
+
+### Fungi and Plant Pathology
+
+### Algae
+
+### Bryophytes
+
+```{r bryo}
+quiz(
+  question("Bryophytes are also known as <span style='color: red;'>[ICFRE 2020]</span>",
+    answer("Vascular cryptogams"),
+    answer("Phanerogams"),
+    answer("Amphibians of Plant Kingdom", correct = TRUE),
+    answer("None of these")
+  ),
+  
+  question("Which of the R packages listed below are used to create plots?",
+    answer("lattice", correct = TRUE),
+    answer("tools"),
+    answer("stats"),
+    answer("grid", correct = TRUE)
+  )
+)
+```
+
+### Pteridophytes
+
+### Gymnosperms
+
+## Structural Organisation
+
+### Morphology
+
+### Anatomy
+
+## Plant Reproduction
+
+
+## Ecology
+
+## Applied Botany
+
+## Methods in Biology
